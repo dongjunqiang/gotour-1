@@ -27,3 +27,4 @@ _testmain.go
 !*.go
 !README.md
 !LICENSE
+!gorunall.bash
