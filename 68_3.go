@@ -1,16 +1,17 @@
 package main
 
 import "fmt"
+
 //import "time"
 
 func f() {
-    fmt.Println("goroutine")
+	fmt.Println("goroutine")
 }
 
 func main() {
-    go f()
+	go f()
 
-    for {
-        //time.Sleep(1 * time.Second)
-    }
+	for {
+		//time.Sleep(1 * time.Second)
+	}
 }
