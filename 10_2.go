@@ -12,6 +12,7 @@ func Bar() (x, y int) {
 }
 
 func Foobar() (x, y int) {
+	fmt.Println(x, y)
 	x, y = 42, 23
 	return
 }
